@@ -8,6 +8,10 @@ from constants import *
 from player import Player
 
 def main():
+    print("Starting Asteroids!")
+    print("Screen width: 1280")
+    print("Screen height: 720")
+    return
     # Initialization
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
